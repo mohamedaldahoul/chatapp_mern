@@ -1,0 +1,13 @@
+{
+  "name": "chatapp_mern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.0.0-beta.11",
+    "graphql": "^0.13.2"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
