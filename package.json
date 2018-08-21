@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon"
+  },
   "dependencies": {
-    "apollo-server": "^2.0.0-beta.11",
-    "graphql": "^0.13.2"
+    "apollo-server": "^2.0.0-rc.6",
+    "graphql": "^0.13.2",
+    "merge-graphql-schemas": "^1.5.3",
+    "mongoose": "^5.2.9"
   },
   "devDependencies": {
-    "supervisor": "^0.12.0"
+    "nodemon": "^1.18.3"
   }
 }
